@@ -1,0 +1,88 @@
+.listcontainer{
+  display: flex;
+  
+  margin-top: 20px;
+}
+.listwrapper{
+    width: 100px;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+}
+.listsearch{
+    flex: 1;
+    background-color: #81e8f3;
+    padding: 10px;
+    border-radius: 10px;
+    position: sticky;
+    top: 80px;
+    height: max-content;
+}
+
+.lstitile{
+    font-style: 20px;
+    color: rgb(88, 79, 79);
+    margin-bottom:10px ;
+
+}
+.listresult{
+
+    flex-direction: row;
+    
+}
+.listitem{
+    display: flex;
+flex-direction: column;
+gap: 5px;
+margin-bottom: 10px;
+
+}
+.listitem>label{
+    font-size: 12px;
+}
+.listitem>input{
+    height: 30px;
+    border: none;
+    padding: 5px;
+}
+.listitem>span{
+    height: 30px;
+   background-color: #fff;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    cursor:pointer
+}
+.lsoptins{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: rgb(92, 91, 89);
+    font-size: 17px;
+  
+
+}
+.listresult{
+
+flex: 1;
+    
+
+
+}
+.lsoptioninput{
+    width: 60px;
+}
+.listsearch>button{
+    padding: 10px;
+    background-color: rgb(68, 161, 201);
+    color: aliceblue;
+    border: none;
+    width: 100%;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.siPrice{
+    font-size: 24px;
+
+}
